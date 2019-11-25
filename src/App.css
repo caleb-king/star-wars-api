@@ -1,22 +1,148 @@
-.App {
+h1 {
+  color: yellow;
+  font-weight: 300;
+  font-size: 3rem;
+  margin-bottom: 4rem;
+}
+
+section {
+  padding: 2rem;
+}
+
+form div {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: yellow;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+#results {
+  text-align: center;
+  color: yellow;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h3 {
+  font-size: 1.5rem;
+  font-weight: 100;
   color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+label {
+  color: black;
+  background-color: white;
+  font-size: 1.5rem;
+  margin-left: 1.5rem;
+  padding: 0.5rem 1rem;
+  border-width: 3px;
+  border-radius: 5px;
+}
+
+select, input, button {
+  margin-left: 1rem;
+  font-family: 'sf_distant_galaxyregular';
+  font-weight: 300;
+  font-size: 1.2rem;
+  background-color: rgba(0, 0, 0, 0);
+  color: yellow;
+  border-color: yellow;
+  border-width: 3px;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+}
+
+button {
+  font-size: 2rem;
+  padding: 1rem 5rem;
+  border-width: 4px;
+  border-radius: 10px;
+}
+
+#button-container {
+  margin-top: 4rem;
+  justify-content: center;
+}
+
+#search-parameters {
+  display: flex;
+  flex-direction: column;
+}
+
+ul, li {
+  margin-left: 0; 
+  padding-left: 0;
+  list-style: none; 
+}
+
+ul {
+  margin-top: 4rem;
+}
+
+li {
+  border-color: white;
+  color: yellow;
+  margin-left: 1rem;
+  font-weight: 300;
+  font-size: 1.5rem;
+  background-color: rgba(0, 0, 0, 0);
+  border-width: 3px;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  display: block;
+}
+
+#return {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+select:hover, button:hover{
+  /* background-color: white;
+  color: black;
+  border-color: white; */
+  color: white;
+  border-color: white;
+  cursor: pointer;
+}
+
+#loading-img-container {
+  text-align: center;
+}
+
+#warp-speed-img {
+  width: 856px;
+  height:480px;
+  background-image: url(./resources/WarpSpeed.jpg);
+  display: inline-block;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#search-field-input {
+  border-color: white;
+  color: white;
+}
+
+#search-field-input::placeholder {
+  color: white;
+}
+
+#error h2, #error h3 {
+  color: red;
+  text-align: center;
+}
+
+option {
+  color: black;
+}
+
+*:focus {
+  outline: none;
 }
